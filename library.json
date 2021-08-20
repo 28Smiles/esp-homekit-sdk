@@ -1,0 +1,22 @@
+{
+    "name": "esp-homekit-sdk",
+    "version": "0.0.0",
+    "description": "ESP HomeKit SDK has been developed in-house by Espressif to build Apple HomeKit compatible accessories using ESP32/ESP32-S2/ESP32-C3/ESP8266 SoCs.",
+    "keywords": "espressif, esp32, esp32-s2, esp32-c3, esp8266, homekit",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/schphil/esp-homekit-sdk.git"
+    },
+    "authors": [
+        {
+            "name": "Philipp Scheff",
+            "email": "philippscheff@me.com"
+        }
+    ],
+    "build": {
+        "includeDir": "components/",
+        "srcDir": "components/"
+    },
+    "frameworks": "espidf",
+    "platforms": "espressif32"
+}

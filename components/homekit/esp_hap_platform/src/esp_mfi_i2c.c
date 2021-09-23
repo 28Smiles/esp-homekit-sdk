@@ -44,6 +44,8 @@
 #include "esp_log.h"
 #include "esp_mfi_i2c.h"
 
+#include <esp_hap_config.h>
+
 static const char *TAG = "mfi_i2c";
 
 #ifndef CONFIG_I2C_SOFTWARE

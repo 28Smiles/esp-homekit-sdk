@@ -43,6 +43,8 @@
 #include <esp_hap_pair_verify.h>
 #include <hap_platform_os.h>
 
+#include <esp_hap_config.h>
+
 static QueueHandle_t xQueue;
 ESP_EVENT_DEFINE_BASE(HAP_EVENT);
 

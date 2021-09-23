@@ -14,8 +14,28 @@
         }
     ],
     "build": {
-        "includeDir": "components/",
-        "srcDir": "components/"
+        "flags": [
+                "-Ilib",
+                "-Icomponents/homekit/esp_hap_extras/include",
+                "-Icomponents/homekit/esp_hap_platform/include",
+                "-Icomponents/homekit/esp_hap_apple_profiles/include",
+                "-Icomponents/homekit/esp_hap_core/include",
+                "-Icomponents/button/button/include",
+                "-Icomponents/homekit/hkdf-sha/include",
+                "-Icomponents/common/qrcode/include",
+                "-Icomponents/homekit/esp_hap_core/src/priv_includes",
+                "-Icomponents/homekit/json_parser/upstream/include",
+                "-Icomponents/homekit/json_generator/upstream",
+                "-Icomponents/homekit/json_parser/upstream",
+                "-Icomponents/homekit/mu_srp",
+                "-Icomponents/common/app_wifi",
+	            "-Icomponents/common/app_hap_setup_payload",
+	            "-Icomponents/common/qrcode/include"
+                                
+        ],
+        "includeDir": ".",
+        "srcDir": ".",
+        "extraScript": "build.py"          
     },
     "frameworks": "espidf",
     "platforms": "espressif32"

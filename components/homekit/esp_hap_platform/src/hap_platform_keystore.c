@@ -25,6 +25,8 @@
 #include <nvs_flash.h>
 #include <string.h>
 
+#include <esp_hap_config.h>
+
 
 static const char *TAG = "hap_platform_keystore";
 

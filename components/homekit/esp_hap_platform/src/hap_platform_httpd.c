@@ -23,6 +23,8 @@
  */
 #include <esp_http_server.h>
 
+#include <esp_hap_config.h>
+
 httpd_handle_t *int_handle;
 int hap_platform_httpd_start(httpd_handle_t *handle)
 {

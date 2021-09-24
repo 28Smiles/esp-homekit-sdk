@@ -34,9 +34,6 @@ docs/doxygen_sqlite3.db
 tools/factory_nvs_gen/*.bin
 tools/factory_nvs_gen/*.csv
 
-# Patch files
-*.patch
-
 #CTags
 tags
 

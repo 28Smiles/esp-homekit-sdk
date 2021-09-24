@@ -10,7 +10,8 @@ common= "components/common"
 
 process = subprocess.call(["git", "submodule", "update", "--init", "--recursive"],stdout=open(os.devnull, 'wb'))
 
-shutil.copytree(examples_common, common)
+if not Path(common).exists():
+    shutil.copytree(examples_common, common)
 
 
 

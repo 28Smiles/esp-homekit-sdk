@@ -39,3 +39,5 @@ tools/factory_nvs_gen/*.csv
 
 #CTags
 tags
+
+components/common

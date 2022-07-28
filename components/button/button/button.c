@@ -72,7 +72,7 @@ struct button_dev{
     button_cb_t* cb_head;
 };
 
-#define BUTTON_GLITCH_FILTER_TIME_MS   CONFIG_IO_GLITCH_FILTER_TIME_MS
+#define BUTTON_GLITCH_FILTER_TIME_MS   50
 static const char* TAG = "button";
 
 static void button_press_cb(TimerHandle_t tmr)

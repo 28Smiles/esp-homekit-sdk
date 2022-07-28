@@ -34,8 +34,7 @@
                                 
         ],
         "includeDir": ".",
-        "srcDir": ".",
-        "extraScript": "build.py"          
+        "srcDir": "."
     },
     "frameworks": "espidf",
     "platforms": "espressif32"
